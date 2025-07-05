@@ -1,0 +1,454 @@
+2025-04-15 21:21:43,530 [INFO] Starting Data Processing Workflow
+2025-04-15 21:21:43,530 [INFO] Starting step: Extract RAR files
+2025-04-15 21:21:51,267 [INFO] Finished: Extract RAR files in 7.74s
+2025-04-15 21:21:51,269 [INFO] Starting step: Move CSV files
+2025-04-15 21:21:51,598 [INFO] Finished: Move CSV files in 0.33s
+2025-04-15 21:21:51,598 [INFO] Starting step: Convert Excel files
+2025-04-15 21:23:36,872 [INFO] Finished: Convert Excel files in 105.27s
+2025-04-15 21:23:36,873 [INFO] Starting step: Update Tilt Value Database
+2025-04-15 21:23:36,951 [ERROR] Failed: Update Tilt Value Database after 0.08s
+2025-04-15 21:23:36,951 [ERROR] TypeError: 'module' object is not callable
+2025-04-15 21:29:48,978 [INFO] Starting Data Processing Workflow
+2025-04-15 21:29:48,979 [INFO] Starting step: Update Tilt Value Database
+2025-04-15 21:30:31,792 [INFO] Finished: Update Tilt Value Database in 42.81s
+2025-04-15 21:30:31,792 [INFO] All steps attempted. See above for success/fail status.
+2025-04-16 14:06:24,672 [INFO] Starting Data Processing Workflow
+2025-04-16 14:06:24,672 [INFO] Starting step: Extract RAR files
+2025-04-16 14:06:32,230 [INFO] Finished: Extract RAR files in 7.56s
+2025-04-16 14:06:32,230 [INFO] Starting step: Move CSV files
+2025-04-16 14:06:32,443 [INFO] Finished: Move CSV files in 0.21s
+2025-04-16 14:06:32,444 [INFO] Starting step: Convert Excel files
+2025-04-16 14:08:30,628 [INFO] Finished: Convert Excel files in 118.18s
+2025-04-16 14:08:30,628 [INFO] Starting step: Update Tilt Value Database
+2025-04-16 14:08:31,891 [INFO] Finished: Update Tilt Value Database in 1.26s
+2025-04-16 14:08:31,891 [INFO] All steps attempted. See above for success/fail status.
+2025-04-18 11:28:48,463 [INFO] Starting Data Processing Workflow
+2025-04-18 11:28:48,464 [INFO] Starting step: Extract RAR files
+2025-04-18 11:28:58,303 [INFO] Finished: Extract RAR files in 9.84s
+2025-04-18 11:28:58,304 [INFO] Starting step: Move CSV files
+2025-04-18 11:28:58,307 [INFO] Finished: Move CSV files in 0.00s
+2025-04-18 11:28:58,307 [INFO] Starting step: Convert Excel files
+2025-04-18 11:31:10,095 [INFO] Finished: Convert Excel files in 131.79s
+2025-04-18 11:31:10,095 [INFO] Starting step: Update Tilt Value Database
+2025-04-18 11:32:04,254 [INFO] Finished: Update Tilt Value Database in 54.16s
+2025-04-18 11:32:04,255 [INFO] All steps attempted. See above for success/fail status.
+2025-04-19 15:01:28,830 [INFO] Starting Data Processing Workflow
+2025-04-19 15:01:28,830 [INFO] Starting step: Extract RAR files
+2025-04-19 15:01:41,875 [INFO] Finished: Extract RAR files in 13.04s
+2025-04-19 15:01:41,875 [INFO] Starting step: Move CSV files
+2025-04-19 15:01:41,883 [INFO] Finished: Move CSV files in 0.01s
+2025-04-19 15:01:41,883 [INFO] Starting step: Convert Excel files
+2025-04-19 15:04:58,257 [INFO] Finished: Convert Excel files in 196.37s
+2025-04-19 15:04:58,258 [INFO] Starting step: Update Tilt Value Database
+2025-04-19 15:06:12,254 [INFO] Finished: Update Tilt Value Database in 74.00s
+2025-04-19 15:06:12,254 [INFO] All steps attempted. See above for success/fail status.
+2025-04-21 16:18:44,477 [INFO] Starting Data Processing Workflow
+2025-04-21 16:18:44,478 [INFO] Starting step: Extract RAR files
+2025-04-21 16:18:53,144 [INFO] Finished: Extract RAR files in 8.67s
+2025-04-21 16:18:53,144 [INFO] Starting step: Move CSV files
+2025-04-21 16:18:53,150 [INFO] Finished: Move CSV files in 0.00s
+2025-04-21 16:18:53,150 [INFO] Starting step: Convert Excel files
+2025-04-21 16:20:47,547 [INFO] Finished: Convert Excel files in 114.40s
+2025-04-21 16:20:47,547 [INFO] Starting step: Update Tilt Value Database
+2025-04-21 16:21:34,309 [INFO] Finished: Update Tilt Value Database in 46.76s
+2025-04-21 16:21:34,309 [INFO] All steps attempted. See above for success/fail status.
+2025-04-22 11:19:18,393 [INFO] Starting Data Processing Workflow
+2025-04-22 11:19:18,393 [INFO] Starting step: Extract RAR files
+2025-04-22 11:19:26,501 [INFO] Finished: Extract RAR files in 8.11s
+2025-04-22 11:19:26,501 [INFO] Starting step: Move CSV files
+2025-04-22 11:19:26,507 [INFO] Finished: Move CSV files in 0.00s
+2025-04-22 11:19:26,507 [INFO] Starting step: Convert Excel files
+2025-04-22 11:22:10,974 [INFO] Finished: Convert Excel files in 164.47s
+2025-04-22 11:22:10,974 [INFO] Starting step: Update Tilt Value Database
+2025-04-22 11:23:16,429 [INFO] Finished: Update Tilt Value Database in 65.45s
+2025-04-22 11:23:16,430 [INFO] All steps attempted. See above for success/fail status.
+2025-04-24 16:24:59,296 [INFO] Starting Data Processing Workflow
+2025-04-24 16:24:59,297 [INFO] Starting step: Extract RAR files
+2025-04-24 16:25:10,809 [INFO] Finished: Extract RAR files in 11.51s
+2025-04-24 16:25:10,809 [INFO] Starting step: Move CSV files
+2025-04-24 16:25:10,817 [INFO] Finished: Move CSV files in 0.01s
+2025-04-24 16:25:10,817 [INFO] Starting step: Convert Excel files
+2025-04-24 16:28:32,047 [INFO] Finished: Convert Excel files in 201.23s
+2025-04-24 16:28:32,048 [INFO] Starting step: Update Tilt Value Database
+2025-04-24 16:29:49,285 [INFO] Finished: Update Tilt Value Database in 77.24s
+2025-04-24 16:29:49,285 [INFO] All steps attempted. See above for success/fail status.
+2025-04-25 13:39:46,222 [INFO] Starting Data Processing Workflow
+2025-04-25 13:39:46,223 [INFO] Starting step: Extract RAR files
+2025-04-25 13:39:56,103 [INFO] Finished: Extract RAR files in 9.88s
+2025-04-25 13:39:56,103 [INFO] Starting step: Move CSV files
+2025-04-25 13:39:56,107 [INFO] Finished: Move CSV files in 0.00s
+2025-04-25 13:39:56,108 [INFO] Starting step: Convert Excel files
+2025-04-25 13:42:34,622 [INFO] Finished: Convert Excel files in 158.51s
+2025-04-25 13:42:34,623 [INFO] Starting step: Update Tilt Value Database
+2025-04-25 13:43:30,820 [INFO] Finished: Update Tilt Value Database in 56.20s
+2025-04-25 13:43:30,820 [INFO] All steps attempted. See above for success/fail status.
+2025-04-26 18:23:15,146 [INFO] Starting Data Processing Workflow
+2025-04-26 18:23:15,146 [INFO] Starting step: Extract RAR files
+2025-04-26 18:23:22,808 [INFO] Finished: Extract RAR files in 7.66s
+2025-04-26 18:23:22,809 [INFO] Starting step: Move CSV files
+2025-04-26 18:23:22,814 [INFO] Finished: Move CSV files in 0.01s
+2025-04-26 18:23:22,815 [INFO] Starting step: Convert Excel files
+2025-04-26 18:25:39,904 [INFO] Finished: Convert Excel files in 137.09s
+2025-04-26 18:25:39,904 [INFO] Starting step: Update Tilt Value Database
+2025-04-26 18:26:28,795 [INFO] Finished: Update Tilt Value Database in 48.89s
+2025-04-26 18:26:28,796 [INFO] All steps attempted. See above for success/fail status.
+2025-04-29 09:21:22,037 [INFO] Starting Data Processing Workflow
+2025-04-29 09:21:22,038 [INFO] Starting step: Extract RAR files
+2025-04-29 09:21:31,327 [INFO] Finished: Extract RAR files in 9.29s
+2025-04-29 09:21:31,327 [INFO] Starting step: Move CSV files
+2025-04-29 09:21:31,332 [INFO] Finished: Move CSV files in 0.00s
+2025-04-29 09:21:31,332 [INFO] Starting step: Convert Excel files
+2025-04-29 09:24:13,893 [INFO] Finished: Convert Excel files in 162.56s
+2025-04-29 09:24:13,894 [INFO] Starting step: Update Tilt Value Database
+2025-04-29 09:25:38,266 [INFO] Finished: Update Tilt Value Database in 84.37s
+2025-04-29 09:25:38,267 [INFO] All steps attempted. See above for success/fail status.
+2025-04-30 10:58:11,031 [INFO] Starting Data Processing Workflow
+2025-04-30 10:58:11,032 [INFO] Starting step: Extract RAR files
+2025-04-30 10:58:22,530 [INFO] Finished: Extract RAR files in 11.50s
+2025-04-30 10:58:22,530 [INFO] Starting step: Move CSV files
+2025-04-30 10:58:22,536 [INFO] Finished: Move CSV files in 0.01s
+2025-04-30 10:58:22,536 [INFO] Starting step: Convert Excel files
+2025-04-30 11:01:22,043 [INFO] Finished: Convert Excel files in 179.51s
+2025-04-30 11:01:22,044 [INFO] Starting step: Update Tilt Value Database
+2025-04-30 11:02:45,718 [INFO] Finished: Update Tilt Value Database in 83.67s
+2025-04-30 11:02:45,718 [INFO] All steps attempted. See above for success/fail status.
+2025-04-30 15:27:26,793 [INFO] Starting Data Processing Workflow
+2025-04-30 15:27:26,794 [INFO] Starting step: Extract RAR files
+2025-04-30 15:27:37,437 [INFO] Finished: Extract RAR files in 10.64s
+2025-04-30 15:27:37,438 [INFO] Starting step: Move CSV files
+2025-04-30 15:27:37,442 [INFO] Finished: Move CSV files in 0.00s
+2025-04-30 15:27:37,443 [INFO] Starting step: Convert Excel files
+2025-04-30 15:30:07,136 [INFO] Finished: Convert Excel files in 149.69s
+2025-04-30 15:30:07,136 [INFO] Starting step: Update Tilt Value Database
+2025-04-30 15:31:05,589 [INFO] Finished: Update Tilt Value Database in 58.45s
+2025-04-30 15:31:05,590 [INFO] All steps attempted. See above for success/fail status.
+2025-05-02 11:37:39,441 [INFO] Starting Data Processing Workflow
+2025-05-02 11:37:39,441 [INFO] Starting step: Extract RAR files
+2025-05-02 11:37:48,327 [INFO] Finished: Extract RAR files in 8.88s
+2025-05-02 11:37:48,328 [INFO] Starting step: Move CSV files
+2025-05-02 11:37:48,336 [INFO] Finished: Move CSV files in 0.01s
+2025-05-02 11:37:48,336 [INFO] Starting step: Convert Excel files
+2025-05-02 11:41:09,309 [INFO] Finished: Convert Excel files in 200.97s
+2025-05-02 11:41:09,309 [INFO] Starting step: Update Tilt Value Database
+2025-05-02 11:42:26,853 [INFO] Finished: Update Tilt Value Database in 77.54s
+2025-05-02 11:42:26,855 [INFO] All steps attempted. See above for success/fail status.
+2025-05-03 11:34:25,126 [INFO] Starting Data Processing Workflow
+2025-05-03 11:34:25,127 [INFO] Starting step: Extract RAR files
+2025-05-03 11:34:30,189 [INFO] Finished: Extract RAR files in 5.06s
+2025-05-03 11:34:30,189 [INFO] Starting step: Move CSV files
+2025-05-03 11:34:30,194 [INFO] Finished: Move CSV files in 0.00s
+2025-05-03 11:34:30,194 [INFO] Starting step: Convert Excel files
+2025-05-03 11:34:30,202 [INFO] Finished: Convert Excel files in 0.01s
+2025-05-03 11:34:30,202 [INFO] Starting step: Update Tilt Value Database
+2025-05-03 11:35:13,431 [INFO] Finished: Update Tilt Value Database in 43.23s
+2025-05-03 11:35:13,432 [INFO] All steps attempted. See above for success/fail status.
+2025-05-06 14:04:50,223 [INFO] Starting Data Processing Workflow
+2025-05-06 14:04:50,223 [INFO] Starting step: Extract RAR files
+2025-05-06 14:05:01,252 [INFO] Finished: Extract RAR files in 11.03s
+2025-05-06 14:05:01,252 [INFO] Starting step: Move CSV files
+2025-05-06 14:05:01,257 [INFO] Finished: Move CSV files in 0.00s
+2025-05-06 14:05:01,257 [INFO] Starting step: Convert Excel files
+2025-05-06 14:07:36,399 [INFO] Finished: Convert Excel files in 155.14s
+2025-05-06 14:07:36,399 [INFO] Starting step: Update Tilt Value Database
+2025-05-06 14:08:37,269 [INFO] Finished: Update Tilt Value Database in 60.87s
+2025-05-06 14:08:37,269 [INFO] All steps attempted. See above for success/fail status.
+2025-05-07 19:59:29,038 [INFO] Starting Data Processing Workflow
+2025-05-07 19:59:29,039 [INFO] Starting step: Extract RAR files
+2025-05-07 19:59:37,303 [INFO] Finished: Extract RAR files in 8.26s
+2025-05-07 19:59:37,303 [INFO] Starting step: Move CSV files
+2025-05-07 19:59:37,308 [INFO] Finished: Move CSV files in 0.00s
+2025-05-07 19:59:37,309 [INFO] Starting step: Convert Excel files
+2025-05-07 20:01:53,963 [INFO] Finished: Convert Excel files in 136.65s
+2025-05-07 20:01:53,964 [INFO] Starting step: Update Tilt Value Database
+2025-05-07 20:02:52,448 [INFO] Finished: Update Tilt Value Database in 58.48s
+2025-05-07 20:02:52,449 [INFO] All steps attempted. See above for success/fail status.
+2025-05-08 14:05:52,101 [INFO] Starting Data Processing Workflow
+2025-05-08 14:05:52,101 [INFO] Starting step: Extract RAR files
+2025-05-08 14:06:03,652 [INFO] Finished: Extract RAR files in 11.55s
+2025-05-08 14:06:03,652 [INFO] Starting step: Move CSV files
+2025-05-08 14:06:03,656 [INFO] Finished: Move CSV files in 0.00s
+2025-05-08 14:06:03,657 [INFO] Starting step: Convert Excel files
+2025-05-08 14:08:12,702 [INFO] Finished: Convert Excel files in 129.04s
+2025-05-08 14:08:12,702 [INFO] Starting step: Update Tilt Value Database
+2025-05-08 14:09:15,922 [INFO] Finished: Update Tilt Value Database in 63.22s
+2025-05-08 14:09:15,922 [INFO] All steps attempted. See above for success/fail status.
+2025-05-10 14:46:26,812 [INFO] Starting Data Processing Workflow
+2025-05-10 14:46:26,812 [INFO] Starting step: Extract RAR files
+2025-05-10 14:46:36,127 [INFO] Finished: Extract RAR files in 9.31s
+2025-05-10 14:46:36,127 [INFO] Starting step: Move CSV files
+2025-05-10 14:46:36,134 [INFO] Finished: Move CSV files in 0.01s
+2025-05-10 14:46:36,134 [INFO] Starting step: Convert Excel files
+2025-05-10 14:48:39,068 [INFO] Finished: Convert Excel files in 122.93s
+2025-05-10 14:48:39,068 [INFO] Starting step: Update Tilt Value Database
+2025-05-10 14:49:32,317 [INFO] Finished: Update Tilt Value Database in 53.25s
+2025-05-10 14:49:32,318 [INFO] All steps attempted. See above for success/fail status.
+2025-05-13 10:33:38,071 [INFO] Starting Data Processing Workflow
+2025-05-13 10:33:38,071 [INFO] Starting step: Extract RAR files
+2025-05-13 10:33:49,675 [INFO] Finished: Extract RAR files in 11.60s
+2025-05-13 10:33:49,676 [INFO] Starting step: Move CSV files
+2025-05-13 10:33:49,685 [INFO] Finished: Move CSV files in 0.01s
+2025-05-13 10:33:49,686 [INFO] Starting step: Convert Excel files
+2025-05-13 10:37:14,868 [INFO] Finished: Convert Excel files in 205.18s
+2025-05-13 10:37:14,869 [INFO] Starting step: Update Tilt Value Database
+2025-05-13 10:38:43,288 [INFO] Finished: Update Tilt Value Database in 88.42s
+2025-05-13 10:38:43,288 [INFO] All steps attempted. See above for success/fail status.
+2025-05-15 11:59:12,005 [INFO] Starting Data Processing Workflow
+2025-05-15 11:59:12,005 [INFO] Starting step: Extract RAR files
+2025-05-15 11:59:22,630 [INFO] Finished: Extract RAR files in 10.62s
+2025-05-15 11:59:22,631 [INFO] Starting step: Move CSV files
+2025-05-15 11:59:22,638 [INFO] Finished: Move CSV files in 0.01s
+2025-05-15 11:59:22,638 [INFO] Starting step: Convert Excel files
+2025-05-15 12:01:36,158 [INFO] Finished: Convert Excel files in 133.52s
+2025-05-15 12:01:36,158 [INFO] Starting step: Update Tilt Value Database
+2025-05-15 12:02:31,887 [INFO] Finished: Update Tilt Value Database in 55.73s
+2025-05-15 12:02:31,887 [INFO] All steps attempted. See above for success/fail status.
+2025-05-19 13:51:05,422 [INFO] Starting Data Processing Workflow
+2025-05-19 13:51:05,422 [INFO] Starting step: Extract RAR files
+2025-05-19 13:51:14,403 [INFO] Finished: Extract RAR files in 8.98s
+2025-05-19 13:51:14,403 [INFO] Starting step: Move CSV files
+2025-05-19 13:51:14,409 [INFO] Finished: Move CSV files in 0.01s
+2025-05-19 13:51:14,409 [INFO] Starting step: Convert Excel files
+2025-05-19 13:55:03,286 [INFO] Finished: Convert Excel files in 228.88s
+2025-05-19 13:55:03,287 [INFO] Starting step: Update Tilt Value Database
+2025-05-19 13:56:36,872 [INFO] Finished: Update Tilt Value Database in 93.58s
+2025-05-19 13:56:36,872 [INFO] All steps attempted. See above for success/fail status.
+2025-05-20 10:57:50,738 [INFO] Starting Data Processing Workflow
+2025-05-20 10:57:50,739 [INFO] Starting step: Extract RAR files
+2025-05-20 10:58:03,830 [INFO] Finished: Extract RAR files in 13.09s
+2025-05-20 10:58:03,830 [INFO] Starting step: Move CSV files
+2025-05-20 10:58:03,837 [INFO] Finished: Move CSV files in 0.01s
+2025-05-20 10:58:03,837 [INFO] Starting step: Convert Excel files
+2025-05-20 11:01:02,546 [INFO] Finished: Convert Excel files in 178.71s
+2025-05-20 11:01:02,546 [INFO] Starting step: Update Tilt Value Database
+2025-05-20 11:02:20,217 [INFO] Finished: Update Tilt Value Database in 77.67s
+2025-05-20 11:02:20,218 [INFO] All steps attempted. See above for success/fail status.
+2025-05-21 17:18:29,188 [INFO] Starting Data Processing Workflow
+2025-05-21 17:18:29,189 [INFO] Starting step: Extract RAR files
+2025-05-21 17:18:41,282 [INFO] Finished: Extract RAR files in 12.09s
+2025-05-21 17:18:41,285 [INFO] Starting step: Move CSV files
+2025-05-21 17:18:41,300 [INFO] Finished: Move CSV files in 0.01s
+2025-05-21 17:18:41,301 [INFO] Starting step: Convert Excel files
+2025-05-21 17:22:07,263 [INFO] Finished: Convert Excel files in 205.96s
+2025-05-21 17:22:07,263 [INFO] Starting step: Update Tilt Value Database
+2025-05-21 17:23:23,464 [INFO] Finished: Update Tilt Value Database in 76.20s
+2025-05-21 17:23:23,465 [INFO] All steps attempted. See above for success/fail status.
+2025-05-23 10:17:21,269 [INFO] Starting Data Processing Workflow
+2025-05-23 10:17:21,269 [INFO] Starting step: Extract RAR files
+2025-05-23 10:17:30,965 [INFO] Finished: Extract RAR files in 9.70s
+2025-05-23 10:17:30,965 [INFO] Starting step: Move CSV files
+2025-05-23 10:17:30,983 [INFO] Finished: Move CSV files in 0.02s
+2025-05-23 10:17:30,984 [INFO] Starting step: Convert Excel files
+2025-05-23 10:19:57,697 [INFO] Finished: Convert Excel files in 146.71s
+2025-05-23 10:19:57,698 [INFO] Starting step: Update Tilt Value Database
+2025-05-23 10:21:00,414 [INFO] Finished: Update Tilt Value Database in 62.72s
+2025-05-23 10:21:00,414 [INFO] All steps attempted. See above for success/fail status.
+2025-05-23 14:10:34,097 [INFO] Starting Data Processing Workflow
+2025-05-23 14:10:34,098 [INFO] Starting step: Extract RAR files
+2025-05-23 14:10:43,590 [INFO] Finished: Extract RAR files in 9.49s
+2025-05-23 14:10:43,590 [INFO] Starting step: Move CSV files
+2025-05-23 14:10:43,594 [INFO] Finished: Move CSV files in 0.00s
+2025-05-23 14:10:43,594 [INFO] Starting step: Convert Excel files
+2025-05-23 14:13:24,300 [INFO] Finished: Convert Excel files in 160.71s
+2025-05-23 14:13:24,300 [INFO] Starting step: Update Tilt Value Database
+2025-05-23 14:14:23,578 [INFO] Finished: Update Tilt Value Database in 59.28s
+2025-05-23 14:14:23,578 [INFO] All steps attempted. See above for success/fail status.
+2025-05-26 16:30:15,045 [INFO] Starting Data Processing Workflow
+2025-05-26 16:30:15,046 [INFO] Starting step: Extract RAR files
+2025-05-26 16:30:29,246 [INFO] Finished: Extract RAR files in 14.20s
+2025-05-26 16:30:29,247 [INFO] Starting step: Move CSV files
+2025-05-26 16:30:29,259 [INFO] Finished: Move CSV files in 0.01s
+2025-05-26 16:30:29,259 [INFO] Starting step: Convert Excel files
+2025-05-26 16:33:44,367 [INFO] Finished: Convert Excel files in 195.11s
+2025-05-26 16:33:44,367 [INFO] Starting step: Update Tilt Value Database
+2025-05-26 16:35:17,560 [INFO] Finished: Update Tilt Value Database in 93.19s
+2025-05-26 16:35:17,560 [INFO] All steps attempted. See above for success/fail status.
+2025-05-27 16:57:45,808 [INFO] Starting Data Processing Workflow
+2025-05-27 16:57:45,808 [INFO] Starting step: Extract RAR files
+2025-05-27 16:57:55,447 [INFO] Finished: Extract RAR files in 9.64s
+2025-05-27 16:57:55,461 [INFO] Starting step: Move CSV files
+2025-05-27 16:57:55,495 [INFO] Finished: Move CSV files in 0.03s
+2025-05-27 16:57:55,498 [INFO] Starting step: Convert Excel files
+2025-05-27 16:59:57,594 [INFO] Finished: Convert Excel files in 122.09s
+2025-05-27 16:59:57,595 [INFO] Starting step: Update Tilt Value Database
+2025-05-27 17:00:47,421 [INFO] Finished: Update Tilt Value Database in 49.83s
+2025-05-27 17:00:47,422 [INFO] All steps attempted. See above for success/fail status.
+2025-05-28 16:27:11,368 [INFO] Starting Data Processing Workflow
+2025-05-28 16:27:11,368 [INFO] Starting step: Extract RAR files
+2025-05-28 16:27:16,157 [INFO] Finished: Extract RAR files in 4.79s
+2025-05-28 16:27:16,157 [INFO] Starting step: Move CSV files
+2025-05-28 16:27:16,161 [INFO] Finished: Move CSV files in 0.00s
+2025-05-28 16:27:16,161 [INFO] Starting step: Convert Excel files
+2025-05-28 16:29:13,596 [INFO] Finished: Convert Excel files in 117.43s
+2025-05-28 16:29:13,596 [INFO] Starting step: Update Tilt Value Database
+2025-05-28 16:30:09,250 [INFO] Finished: Update Tilt Value Database in 55.65s
+2025-05-28 16:30:09,250 [INFO] All steps attempted. See above for success/fail status.
+2025-05-30 11:30:51,889 [INFO] Starting Data Processing Workflow
+2025-05-30 11:30:51,890 [INFO] Starting step: Extract RAR files
+2025-05-30 11:30:55,105 [INFO] Finished: Extract RAR files in 3.21s
+2025-05-30 11:30:55,105 [INFO] Starting step: Move CSV files
+2025-05-30 11:30:55,110 [INFO] Finished: Move CSV files in 0.00s
+2025-05-30 11:30:55,110 [INFO] Starting step: Convert Excel files
+2025-05-30 11:32:32,398 [INFO] Finished: Convert Excel files in 97.29s
+2025-05-30 11:32:32,398 [INFO] Starting step: Update Tilt Value Database
+2025-05-30 11:33:19,421 [INFO] Finished: Update Tilt Value Database in 47.02s
+2025-05-30 11:33:19,422 [INFO] All steps attempted. See above for success/fail status.
+2025-06-03 10:46:30,998 [INFO] Starting Data Processing Workflow
+2025-06-03 10:46:30,999 [INFO] Starting step: Extract RAR files
+2025-06-03 10:46:34,629 [INFO] Finished: Extract RAR files in 3.63s
+2025-06-03 10:46:34,629 [INFO] Starting step: Move CSV files
+2025-06-03 10:46:34,635 [INFO] Finished: Move CSV files in 0.01s
+2025-06-03 10:46:34,636 [INFO] Starting step: Convert Excel files
+2025-06-03 10:48:59,076 [INFO] Finished: Convert Excel files in 144.44s
+2025-06-03 10:48:59,077 [INFO] Starting step: Update Tilt Value Database
+2025-06-03 10:50:06,617 [INFO] Finished: Update Tilt Value Database in 67.54s
+2025-06-03 10:50:06,618 [INFO] All steps attempted. See above for success/fail status.
+2025-06-06 10:51:47,829 [INFO] Starting Data Processing Workflow
+2025-06-06 10:51:47,830 [INFO] Starting step: Extract RAR files
+2025-06-06 10:51:51,486 [INFO] Finished: Extract RAR files in 3.66s
+2025-06-06 10:51:51,486 [INFO] Starting step: Move CSV files
+2025-06-06 10:51:51,494 [INFO] Finished: Move CSV files in 0.01s
+2025-06-06 10:51:51,495 [INFO] Starting step: Convert Excel files
+2025-06-06 10:55:05,463 [INFO] Finished: Convert Excel files in 193.97s
+2025-06-06 10:55:05,464 [INFO] Starting step: Update Tilt Value Database
+2025-06-06 10:56:05,518 [INFO] Finished: Update Tilt Value Database in 60.05s
+2025-06-06 10:56:05,519 [INFO] All steps attempted. See above for success/fail status.
+2025-06-09 20:25:28,427 [INFO] Starting Data Processing Workflow
+2025-06-09 20:25:28,428 [INFO] Starting step: Extract RAR files
+2025-06-09 20:25:31,918 [INFO] Finished: Extract RAR files in 3.49s
+2025-06-09 20:25:31,918 [INFO] Starting step: Move CSV files
+2025-06-09 20:25:31,925 [INFO] Finished: Move CSV files in 0.01s
+2025-06-09 20:25:31,925 [INFO] Starting step: Convert Excel files
+2025-06-09 20:25:50,168 [INFO] Finished: Convert Excel files in 18.24s
+2025-06-09 20:25:50,169 [INFO] Starting step: Update Tilt Value Database
+2025-06-09 20:26:23,927 [INFO] Finished: Update Tilt Value Database in 33.76s
+2025-06-09 20:26:23,928 [INFO] All steps attempted. See above for success/fail status.
+2025-06-11 19:41:33,506 [INFO] Starting Data Processing Workflow
+2025-06-11 19:41:33,506 [INFO] Starting step: Extract RAR files
+2025-06-11 19:41:37,764 [INFO] Finished: Extract RAR files in 4.26s
+2025-06-11 19:41:37,764 [INFO] Starting step: Move CSV files
+2025-06-11 19:41:37,772 [INFO] Finished: Move CSV files in 0.01s
+2025-06-11 19:41:37,773 [INFO] Starting step: Convert Excel files
+2025-06-11 19:44:29,609 [INFO] Finished: Convert Excel files in 171.83s
+2025-06-11 19:44:29,609 [INFO] Starting step: Update Tilt Value Database
+2025-06-11 19:45:44,765 [INFO] Finished: Update Tilt Value Database in 75.16s
+2025-06-11 19:45:44,765 [INFO] All steps attempted. See above for success/fail status.
+2025-06-13 11:22:50,096 [INFO] Starting Data Processing Workflow
+2025-06-13 11:22:50,097 [INFO] Starting step: Extract RAR files
+2025-06-13 11:22:59,678 [INFO] Finished: Extract RAR files in 9.58s
+2025-06-13 11:22:59,679 [INFO] Starting step: Move CSV files
+2025-06-13 11:22:59,710 [INFO] Finished: Move CSV files in 0.03s
+2025-06-13 11:22:59,711 [INFO] Starting step: Convert Excel files
+2025-06-13 11:26:02,789 [INFO] Finished: Convert Excel files in 183.08s
+2025-06-13 11:26:02,790 [INFO] Starting step: Update Tilt Value Database
+2025-06-13 11:27:14,356 [INFO] Finished: Update Tilt Value Database in 71.57s
+2025-06-13 11:27:14,357 [INFO] All steps attempted. See above for success/fail status.
+2025-06-16 11:37:20,129 [INFO] Starting Data Processing Workflow
+2025-06-16 11:37:20,129 [INFO] Starting step: Extract RAR files
+2025-06-16 11:37:24,778 [INFO] Finished: Extract RAR files in 4.65s
+2025-06-16 11:37:24,779 [INFO] Starting step: Move CSV files
+2025-06-16 11:37:24,783 [INFO] Finished: Move CSV files in 0.00s
+2025-06-16 11:37:24,783 [INFO] Starting step: Convert Excel files
+2025-06-16 11:41:36,992 [INFO] Finished: Convert Excel files in 252.21s
+2025-06-16 11:41:36,993 [INFO] Starting step: Update Tilt Value Database
+2025-06-16 11:43:39,800 [INFO] Finished: Update Tilt Value Database in 122.81s
+2025-06-16 11:43:39,801 [INFO] All steps attempted. See above for success/fail status.
+2025-06-17 09:49:56,753 [INFO] Starting Data Processing Workflow
+2025-06-17 09:49:56,753 [INFO] Starting step: Extract RAR files
+2025-06-17 09:50:01,110 [INFO] Finished: Extract RAR files in 4.36s
+2025-06-17 09:50:01,111 [INFO] Starting step: Move CSV files
+2025-06-17 09:50:01,117 [INFO] Finished: Move CSV files in 0.01s
+2025-06-17 09:50:01,117 [INFO] Starting step: Convert Excel files
+2025-06-17 09:50:01,119 [INFO] Finished: Convert Excel files in 0.00s
+2025-06-17 09:50:01,119 [INFO] Starting step: Update Tilt Value Database
+2025-06-17 09:50:58,258 [INFO] Finished: Update Tilt Value Database in 57.14s
+2025-06-17 09:50:58,258 [INFO] All steps attempted. See above for success/fail status.
+2025-06-17 16:00:15,977 [INFO] Starting Data Processing Workflow
+2025-06-17 16:00:15,978 [INFO] Starting step: Extract RAR files
+2025-06-17 16:00:24,857 [INFO] Finished: Extract RAR files in 8.88s
+2025-06-17 16:00:24,857 [INFO] Starting step: Move CSV files
+2025-06-17 16:00:24,864 [INFO] Finished: Move CSV files in 0.01s
+2025-06-17 16:00:24,865 [INFO] Starting step: Convert Excel files
+2025-06-17 16:02:51,702 [INFO] Finished: Convert Excel files in 146.84s
+2025-06-17 16:02:51,703 [INFO] Starting step: Update Tilt Value Database
+2025-06-17 16:03:56,384 [INFO] Finished: Update Tilt Value Database in 64.68s
+2025-06-17 16:03:56,385 [INFO] All steps attempted. See above for success/fail status.
+2025-06-19 13:13:26,015 [INFO] Starting Data Processing Workflow
+2025-06-19 13:13:26,016 [INFO] Starting step: Extract RAR files
+2025-06-19 13:13:30,348 [INFO] Finished: Extract RAR files in 4.33s
+2025-06-19 13:13:30,348 [INFO] Starting step: Move CSV files
+2025-06-19 13:13:30,357 [INFO] Finished: Move CSV files in 0.01s
+2025-06-19 13:13:30,357 [INFO] Starting step: Convert Excel files
+2025-06-19 13:13:30,359 [INFO] Finished: Convert Excel files in 0.00s
+2025-06-19 13:13:30,360 [INFO] Starting step: Update Tilt Value Database
+2025-06-19 13:14:35,417 [INFO] Finished: Update Tilt Value Database in 65.06s
+2025-06-19 13:14:35,417 [INFO] All steps attempted. See above for success/fail status.
+2025-06-20 17:40:10,412 [INFO] Starting Data Processing Workflow
+2025-06-20 17:40:10,412 [INFO] Starting step: Extract RAR files
+2025-06-20 17:40:14,498 [INFO] Finished: Extract RAR files in 4.09s
+2025-06-20 17:40:14,499 [INFO] Starting step: Move CSV files
+2025-06-20 17:40:14,507 [INFO] Finished: Move CSV files in 0.01s
+2025-06-20 17:40:14,508 [INFO] Starting step: Convert Excel files
+2025-06-20 17:43:49,422 [INFO] Finished: Convert Excel files in 214.91s
+2025-06-20 17:43:49,423 [INFO] Starting step: Update Tilt Value Database
+2025-06-20 17:45:22,232 [INFO] Finished: Update Tilt Value Database in 92.81s
+2025-06-20 17:45:22,232 [INFO] All steps attempted. See above for success/fail status.
+2025-06-24 16:15:39,603 [INFO] Starting Data Processing Workflow
+2025-06-24 16:15:39,604 [INFO] Starting step: Extract RAR files
+2025-06-24 16:15:44,685 [INFO] Finished: Extract RAR files in 5.08s
+2025-06-24 16:15:44,686 [INFO] Starting step: Move CSV files
+2025-06-24 16:15:44,709 [INFO] Finished: Move CSV files in 0.02s
+2025-06-24 16:15:44,712 [INFO] Starting step: Convert Excel files
+2025-06-24 16:18:24,803 [INFO] Finished: Convert Excel files in 160.09s
+2025-06-24 16:18:24,804 [INFO] Starting step: Update Tilt Value Database
+2025-06-24 16:19:32,061 [INFO] Finished: Update Tilt Value Database in 67.26s
+2025-06-24 16:19:32,061 [INFO] All steps attempted. See above for success/fail status.
+2025-06-30 22:54:45,135 [INFO] Starting Data Processing Workflow
+2025-06-30 22:54:45,137 [INFO] Starting step: Extract RAR files
+2025-06-30 22:54:53,528 [INFO] Finished: Extract RAR files in 8.39s
+2025-06-30 22:54:53,529 [INFO] Starting step: Move CSV files
+2025-06-30 22:54:53,549 [INFO] Finished: Move CSV files in 0.02s
+2025-06-30 22:54:53,551 [INFO] Starting step: Convert Excel files
+2025-06-30 22:59:04,302 [INFO] Finished: Convert Excel files in 250.75s
+2025-06-30 22:59:04,302 [INFO] Starting step: Update Tilt Value Database
+2025-06-30 23:01:36,992 [INFO] Finished: Update Tilt Value Database in 152.69s
+2025-06-30 23:01:36,993 [INFO] All steps attempted. See above for success/fail status.
+2025-07-01 11:54:08,644 [INFO] Starting Data Processing Workflow
+2025-07-01 11:54:08,644 [INFO] Starting step: Extract RAR files
+2025-07-01 11:54:12,877 [INFO] Finished: Extract RAR files in 4.23s
+2025-07-01 11:54:12,877 [INFO] Starting step: Move CSV files
+2025-07-01 11:54:12,884 [INFO] Finished: Move CSV files in 0.01s
+2025-07-01 11:54:12,884 [INFO] Starting step: Convert Excel files
+2025-07-01 11:56:03,402 [INFO] Finished: Convert Excel files in 110.52s
+2025-07-01 11:56:03,402 [INFO] Starting step: Update Tilt Value Database
+2025-07-01 11:56:59,134 [INFO] Finished: Update Tilt Value Database in 55.73s
+2025-07-01 11:56:59,134 [INFO] All steps attempted. See above for success/fail status.
+2025-07-02 15:31:57,161 [INFO] Starting Data Processing Workflow
+2025-07-02 15:31:57,162 [INFO] Starting step: Extract RAR files
+2025-07-02 15:32:01,243 [INFO] Finished: Extract RAR files in 4.08s
+2025-07-02 15:32:01,243 [INFO] Starting step: Move CSV files
+2025-07-02 15:32:01,247 [INFO] Finished: Move CSV files in 0.00s
+2025-07-02 15:32:01,248 [INFO] Starting step: Convert Excel files
+2025-07-02 15:34:36,739 [INFO] Finished: Convert Excel files in 155.49s
+2025-07-02 15:34:36,739 [INFO] Starting step: Update Tilt Value Database
+2025-07-02 15:35:50,349 [INFO] Finished: Update Tilt Value Database in 73.61s
+2025-07-02 15:35:50,350 [INFO] All steps attempted. See above for success/fail status.
+2025-07-04 09:45:22,350 [INFO] Starting Data Processing Workflow
+2025-07-04 09:45:22,350 [INFO] Starting step: Extract RAR files
+2025-07-04 09:45:26,300 [INFO] Finished: Extract RAR files in 3.95s
+2025-07-04 09:45:26,300 [INFO] Starting step: Move CSV files
+2025-07-04 09:45:26,313 [INFO] Finished: Move CSV files in 0.01s
+2025-07-04 09:45:26,313 [INFO] Starting step: Convert Excel files
+2025-07-04 09:47:40,000 [INFO] Finished: Convert Excel files in 133.69s
+2025-07-04 09:47:40,000 [INFO] Starting step: Update Tilt Value Database
+2025-07-04 09:48:37,960 [INFO] Finished: Update Tilt Value Database in 57.96s
+2025-07-04 09:48:37,961 [INFO] All steps attempted. See above for success/fail status.
+2025-07-05 15:43:53,246 [INFO] Starting Data Processing Workflow
+2025-07-05 15:43:53,247 [INFO] Starting step: Extract RAR files
+2025-07-05 15:43:56,624 [INFO] Finished: Extract RAR files in 3.38s
+2025-07-05 15:43:56,624 [INFO] Starting step: Move CSV files
+2025-07-05 15:43:56,635 [INFO] Finished: Move CSV files in 0.01s
+2025-07-05 15:43:56,635 [INFO] Starting step: Convert Excel files
+2025-07-05 15:43:56,639 [INFO] Finished: Convert Excel files in 0.00s
+2025-07-05 15:43:56,640 [INFO] Starting step: Update Tilt Value Database
+2025-07-05 15:45:39,646 [INFO] Finished: Update Tilt Value Database in 103.01s
+2025-07-05 15:45:39,646 [INFO] All steps attempted. See above for success/fail status.

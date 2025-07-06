@@ -5,7 +5,12 @@ This repository contains utilities for processing radio network parameter dumps 
 ## Requirements
 
 - Python 3.8 or newer
-- Packages: `pandas`, `psycopg2`, `openpyxl`, `python-dotenv`
+- Install the Python packages listed in `requirements.txt` using:
+
+```bash
+pip install -r requirements.txt
+```
+
 - WinRAR installed at `C:\Program Files\WinRAR\WinRAR.exe` (used for extraction on Windows)
 
 ## Configuration

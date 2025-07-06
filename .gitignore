@@ -13,3 +13,6 @@ __pycache__/
 
 # Output artifacts
 /output/
+
+# Ignore all log files
+log/*.log

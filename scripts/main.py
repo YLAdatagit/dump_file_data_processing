@@ -5,6 +5,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import time
 import traceback
 import logging
+from pathlib import Path
 from scripts.extract_rar import extract_with_winrar
 from scripts.shift_files import process_csv_files
 from scripts.convert_excel import convert_excels
@@ -18,13 +19,19 @@ warnings.filterwarnings("ignore", category=pd.errors.DtypeWarning)
 warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# === Configure Logging ===
+# Setup log path
+log_dir = Path(__file__).resolve().parents[1] / "log"
+log_dir.mkdir(exist_ok=True)
+
+log_file = log_dir / "process.log"
+
+# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("process_log.txt"),  # Log to file
-        logging.StreamHandler()                 # Also log to terminal
+        logging.FileHandler(log_file),   # Log to file in /log/
+        logging.StreamHandler()          # Also log to terminal
     ]
 )
 

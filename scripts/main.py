@@ -6,36 +6,45 @@ import time
 import traceback
 import logging
 from pathlib import Path
+from datetime import datetime
+from plyer import notification
+import warnings
+import pandas as pd
+
 from scripts.extract_rar import extract_with_winrar
 from scripts.shift_files import process_csv_files
 from scripts.convert_excel import convert_excels
 from scripts.tilt_value import update_tilt_database
 import config
 
-import warnings
-import pandas as pd
-
+# === Suppress pandas warnings ===
 warnings.filterwarnings("ignore", category=pd.errors.DtypeWarning)
 warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-# Setup log path
+# === Logging setup ===
 log_dir = Path(__file__).resolve().parents[1] / "log"
 log_dir.mkdir(exist_ok=True)
-
 log_file = log_dir / "process.log"
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler(log_file),   # Log to file in /log/
-        logging.StreamHandler()          # Also log to terminal
+        logging.FileHandler(log_file),
+        logging.StreamHandler()
     ]
 )
 
-# === Timing + Error Wrapper ===
+# === Notification helper ===
+def notify(title, message):
+    notification.notify(
+        title=title,
+        message=message,
+        timeout=5
+    )
+
+# === Step runner ===
 def run_step(step_name, func):
     logging.info(f"Starting step: {step_name}")
     start = time.perf_counter()
@@ -47,9 +56,10 @@ def run_step(step_name, func):
         end = time.perf_counter()
         logging.error(f"Failed: {step_name} after {end - start:.2f}s")
         logging.error(f"{type(e).__name__}: {e}")
-        logging.debug(traceback.format_exc())  # Full traceback for debugging
+        logging.debug(traceback.format_exc())
+        raise  # Re-raise to trigger global notification
 
-# === Step Functions ===
+# === Step functions ===
 def step_extract():
     extract_with_winrar(config.rar1, config.folder1)
     extract_with_winrar(config.rar2, config.folder2)
@@ -60,15 +70,24 @@ def step_move_csvs():
 def step_convert_excel():
     convert_excels(config)
 
-# === Main Runner ===
+def step_update_db():
+    update_tilt_database(config)
+
+# === Main workflow with notification ===
 def main():
-    logging.info("Starting Data Processing Workflow")
+    logging.info("=== Starting Data Processing Workflow ===")
     run_step("Extract RAR files", step_extract)
     run_step("Move CSV files", step_move_csvs)
     run_step("Convert Excel files", step_convert_excel)
-    run_step("Update Tilt Value Database", lambda: update_tilt_database(config))
-
-    logging.info("All steps attempted. See above for success/fail status.")
+    run_step("Update Tilt Value Database", step_update_db)
+    logging.info("=== All steps completed ===")
 
 if __name__ == "__main__":
-    main()
+    start = datetime.now()
+    try:
+        main()
+        end = datetime.now()
+        notify("✅ Script Completed", f"Duration: {end - start}")
+    except Exception as e:
+        notify("❌ Script Failed", f"{type(e).__name__}: {str(e)}")
+        traceback.print_exc()

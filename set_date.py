@@ -36,7 +36,7 @@ def update_env_date(new_date):
 
 def run_main_script():
     print("🚀 Running main pipeline...")
-    result = subprocess.run(["python", "-m", "scripts.main"], check=False)
+    result = subprocess.run([sys.executable, "-m", "scripts.main"], check=False)
     if result.returncode == 0:
         print("✅ scripts.main ran successfully.")
     else:

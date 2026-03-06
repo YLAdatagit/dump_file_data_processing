@@ -36,6 +36,9 @@ def hwret_database(date, input_file, psql_connection, table_name, date_column):
     def clean_csv(input_file, date):
         try:
             df = pd.read_csv(input_file, encoding='ISO-8859-1')
+            df = df[['FileName', 'NAME', 'MMLÃüÁî', 'Ö´ÐÐ½á¹û', 'Device No.', 'Device Name',
+                     'Subunit No.', 'Subunit Name', 'Online Status', 'Actual Tilt(0.1degree)',
+                     'Actual Sector ID', 'RET Configuration Data File Name', 'Configuration Data File Load Time']]
             column_mapping = {
                 'FileName': 'FileName',
                 'NAME': 'NAME',

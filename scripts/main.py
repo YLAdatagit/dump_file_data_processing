@@ -18,8 +18,8 @@ from scripts.tilt_value import update_tilt_database
 import config
 
 # === Suppress pandas warnings ===
+# SettingWithCopyWarning is built-in in Python / handled differently in pandas 3+
 warnings.filterwarnings("ignore", category=pd.errors.DtypeWarning)
-warnings.filterwarnings("ignore", category=pd.errors.SettingWithCopyWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 # === Logging setup ===

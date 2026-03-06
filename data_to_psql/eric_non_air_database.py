@@ -48,7 +48,7 @@ def eric_non_air_database(date, input_file, psql_connection, table_name, date_co
     def clean_eric_non_air(input_file, date):
         try:
             df = pd.read_csv(input_file)
-            df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+            df = df.map(lambda x: x.strip() if isinstance(x, str) else x)
             df['Date'] = pd.to_datetime(date)
             df_1 = df[['Date', 'NodeId', 'AntennaUnitGroupId', 'AntennaNearUnitId', 
                        'RetSubUnitId', 'electricalAntennaTilt', 'userLabel', 

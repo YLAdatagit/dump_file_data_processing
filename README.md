@@ -1,55 +1,71 @@
-# Dump File Data Processing
+# Dump File Data Processing (Radio Network Data ပြုပြင်ခြင်း)
 
-This repository contains utilities for processing radio network parameter dumps and updating a PostgreSQL database.  The main workflow extracts RAR archives, organizes the files, converts Excel sheets to CSV and finally loads the data into database tables.
+ဤ Project သည် Radio Network Parameter Dump ဖိုင်များကို အလိုအလျောက် ပြုပြင်စီမံပေးပြီး PostgreSQL Database သို့ ချိတ်ဆက်သိမ်းဆည်းပေးရန် ရေးသားထားသော စနစ်တစ်ခု ဖြစ်ပါသည်။ 
 
-## Requirements
+အဓိက အလုပ်လုပ်ပုံမှာ - RAR ဖိုင်များကို ဖြည်ချခြင်း (Extract)၊ ဖိုင်များကို စနစ်တကျ ပြန်လည်စီစဉ်ခြင်း၊ Excel ဖိုင်များကို CSV သို့ ပြောင်းလဲခြင်းနှင့် နောက်ဆုံးတွင် အဆိုပါ Data များကို Database သို့ ထည့်သွင်းပေးခြင်း တို့ဖြစ်ပါသည်။
 
-- Python 3.8 or newer
-- Packages: `pandas`, `psycopg2`, `openpyxl`, `python-dotenv`
-- WinRAR installed at `C:\Program Files\WinRAR\WinRAR.exe` (used for extraction on Windows)
+---
 
-## Configuration
+## လိုအပ်ချက်များ (Requirements)
 
-Create a `.env` file in the project root with the following variables:
+- **Python** `3.8` သို့မဟုတ် ၎င်းထက်ပိုမြင့်သော ဗားရှင်း။
+- **Library များ**: `pandas`, `psycopg2`, `openpyxl`, `python-dotenv`, `plyer`
+- **WinRAR**: Windows ပေါ်တွင် ဖိုင်ဖြည်ရန် `C:\Program Files\WinRAR\WinRAR.exe` ၌ WinRAR သွင်းထားရန် လိုအပ်ပါသည်။
 
-```bash
-DATE_TO_ADD=2024-01-01        # Date of the dump to process
-BASE_DIR=/path/to/dump/files  # Base folder containing the archives and output directories
-DB_NAME=database
-DB_USER=user
-DB_PASSWORD=password
-DB_HOST=localhost
-DB_PORT=5432
+---
+
+## ကြိုတင်ပြင်ဆင်ခြင်း (Configuration)
+
+Project ၏ အဓိကဖိုင်တွဲ (Root Directory) တွင် `.env` အမည်ဖြင့် ဖိုင်တစ်ခု ဖန်တီးပြီး အောက်ပါ အချက်အလက်များကို ထည့်သွင်းပါ-
+
+```env
+DATE_TO_ADD=2024-01-01        # လုပ်ဆောင်လိုသော ရက်စွဲ
+BASE_DIR=/path/to/dump/files  # Dump ဖိုင်များနှင့် အထွက်ဖိုင်များ ထားရှိမည့် အဓိက ဖိုင်တွဲ
+DB_NAME=database              # Database အမည်
+DB_USER=user                  # Database အသုံးပြုသူအမည်
+DB_PASSWORD=password          # Database စကားဝှက်
+DB_HOST=localhost             # Database ရှိရာ နေရာ (Host)
+DB_PORT=5432                  # Database Port နံပါတ်
 ```
 
-`set_date.py` can be used to update `DATE_TO_ADD` and immediately run the processing pipeline:
+---
+
+## အသုံးပြုနည်း
+
+အောက်ပါ `set_date.py` ဖိုင်ကို အသုံးပြု၍ `.env` ထဲရှိ DATE_TO_ADD ရက်စွဲကို ပြောင်းလဲပေးနိုင်ပြီး ပရိုဂရမ်တစ်ခုလုံးကိုလည်း တစ်ပါတည်း တိုက်ရိုက် စတင် (Run) ပေးမည် ဖြစ်ပါသည်-
 
 ```bash
 python set_date.py YYYY-MM-DD
 ```
+*(ဥပမာ - `python set_date.py 2025-11-28`)*
 
-## Workflow
+---
 
-`scripts/main.py` orchestrates the steps below:
+## အလုပ်လုပ်ဆောင်ပုံ အဆင့်ဆင့် (Workflow)
 
-1. **Extract RAR archives** from `BASE_DIR` for the given date.
-2. **Move and rename CSV files** into sub‑folders.
-3. **Convert Excel files** to CSV.
-4. **Update the PostgreSQL database** using functions inside `data_to_psql/`.
+`scripts/main.py` ဖိုင်မှ အောက်ပါ အဆင့်များကို အလိုအလျောက် အစဉ်လိုက် လုပ်ဆောင်သွားမည် ဖြစ်ပါသည်-
 
-Each loader function checks if records for the specified date already exist before inserting new rows.
+1. **Extract RAR archives**: `BASE_DIR` ထဲမှ သတ်မှတ်ထားသော ရက်စွဲနှင့် သက်ဆိုင်သည့် RAR ဖိုင်များကို ဖြည်ချပေးမည်။
+2. **Move and rename CSV files**: ထွက်လာသော CSV ဖိုင်များကို သက်ဆိုင်ရာ ဖိုင်တွဲများသို့ အမည်ပြောင်း၍ ရွှေ့ပြောင်းပေးမည်။
+3. **Convert Excel files**: Excel ဖိုင်များကို CSV ဖိုင်များအဖြစ် အလိုအလျောက် ပြောင်းလဲပေးမည်။
+4. **Update PostgreSQL database**: `data_to_psql/` အောက်ရှိ Function များကို အသုံးပြု၍ Database ထဲသို့ ဒေတာများကို ရိုက်သွင်းပေးမည်။
 
-## Running Manually
+*(ထည့်သွင်းမှုမပြုမီ သက်ဆိုင်ရာရက်စွဲအတွက် ဒေတာဟောင်း ရှိ/မရှိကို အရင်စစ်ဆေးပြီးမှသာ အချက်အလက်အသစ်များကို ထည့်သွင်းသွားမည်ဖြစ်ပါသည်။)*
 
-If you prefer to run the pipeline manually, execute:
+---
+
+## ကိုယ်တိုင် အဆင့်ဆင့် Run လိုပါက (Running Manually)
+
+`set_date.py` ကို မသုံးဘဲ ကိုယ်တိုင် တိုက်ရိုက် Run လိုပါက အောက်ပါ command ကို အသုံးပြုနိုင်ပါသည်-
 
 ```bash
 python -m scripts.main
 ```
+*(ယခုလို မလုပ်ဆောင်မီ `.env` ဖိုင်ထဲတွင် မိမိလုပ်ဆောင်လိုသော ရက်စွဲကို မှန်ကန်စွာ သတ်မှတ်ထားရန် လိုအပ်ပါသည်။)*
 
-Make sure the `.env` file is configured with the desired date beforehand.
+---
 
-## Notes
+## မှတ်သားရန်များ (Notes)
 
-The code assumes a directory layout defined by `BASE_DIR` and expects specific CSV and Excel file names as produced by network management systems.  Adjust the paths or filenames in `scripts/shift_files.py` and `scripts/convert_excel.py` if your files differ.
-
+- ဤကုဒ်သည် Network Management System မှ ထွက်လာသော သီးသန့် CSV/Excel ဖိုင်အမည်များနှင့် `BASE_DIR` လမ်းကြောင်းအတိုင်း ဖွဲ့စည်းထားသည်ဟု ယူဆပြီး ရေးသားထားခြင်း ဖြစ်ပါသည်။
+- အကယ်၍ သင့်ဖိုင်အမည် (သို့) ဖိုင်လမ်းကြောင်းများ ကွာခြားနေပါက `scripts/shift_files.py` နှင့် `scripts/convert_excel.py` ဖိုင်များအတွင်း ဝင်ရောက်ပြင်ဆင်ပေးရန် လိုအပ်ပါလိမ့်မည်။
